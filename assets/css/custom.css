@@ -96,7 +96,7 @@
 #header-wrapper nav {
     background-color: #fff;
     padding: 10px !important;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .logo-container .main-logo {
@@ -181,6 +181,16 @@
     position: absolute;
 }
 
+#header-wrapper nav #main-menu{
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+}
+
+#header-wrapper nav #main-menu ul {
+    margin-left: 0px !important;
+}
+
 /* Responsive Mobile Menu */
 @media screen and (max-width: 991px) {
     #header-wrapper #top-header {
@@ -220,5 +230,56 @@
         transform: none;
     }
 }
+
+#header-wrapper nav .main-nav-right-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 2px 15px;
+    gap: 20px;
+}
+
+#header-wrapper nav .main-nav-right-item i{
+    font-size: 20px;
+    color: #2e572d;
+}
+
+#header-wrapper nav .main-nav-right-item .phone-contact-box-header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+#header-wrapper nav .main-nav-right-item .phone-contact-box-header i{
+    padding: 12px;
+    background-color: #2e572d;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#header-wrapper nav .main-nav-right-item .phone-contact-box-header .phone-contact-content{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#header-wrapper nav .main-nav-right-item .phone-contact-box-header .phone-contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#header-wrapper nav .main-nav-right-item .hamberger-btn i{
+    padding: 12px;
+    background-color: #2e572d;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 15px;
+}
+
 
 

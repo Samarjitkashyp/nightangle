@@ -56,7 +56,26 @@
                         'walker'          => new bootstrap_5_wp_nav_menu_walker(),
                     ) );
                     ?>
-            </div>    
+            </div> 
+            
+            <div class="main-nav-right-item">
+                <div class="search-box-header">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+
+                <div class="phone-contact-box-header">
+                    <i class="fa-solid fa-phone-volume main-icon-right"></i>
+                    <div class="phone-contact-content">
+                        <span>Hotline</span>
+                        <span>+91-86388-94558</span>
+                    </div>
+                </div>
+
+                <div class="hamberger-btn">
+                    <i class="fa-solid fa-bars main-icon-right"></i>
+                </div>
+
+            </div>
         </nav>
     </header>
 
